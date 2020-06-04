@@ -24,7 +24,7 @@ export default {
           game: true
         },
         {
-          text: "In this game you will fight vs a enemy, could you beat him?",
+          text: "In this game you will fight vs an enemy, could you beat him?",
           dialog: 1,
           game: true
         },

@@ -78,7 +78,7 @@ export default {
       return Math.max(Math.floor(Math.random() * max) + 1, min);
     },
     enemyAttack() {
-      let damage = this.calculateDamage(10, 15);
+      let damage = this.calculateDamage(20, 25);
       this.playerHp -= damage;
       this.logs.unshift({
         text: "🐉 Enemy hits " + damage + "Hp" + " 🐉"
